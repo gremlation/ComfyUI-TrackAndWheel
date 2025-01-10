@@ -6,11 +6,16 @@ A ComfyUI extension that improves panning and zooming on trackpads and with the 
 
 ### ComfyUI-Manager
 
-- Open the manager
-- Pick "Install via Git URL"
-- Enter `https://github.com/Gremlation/ComfyUI-TrackAndWheel`
+- Open the Manager
+- Pick "Custom Nodes Manager"
+- Search for "ComfyUI-TrackAndWheel"
+- Install the latest version
+- Restart ComfyUI
 
-You may need to edit `custom_nodes/ComfyUI-Manager/config.ini` and set `security_level = normal-` first.
+### Comfy-Cli
+
+- Run `comfy node install comfyui-trackandwheel`
+- Restart ComfyUI
 
 ### Manual
 
